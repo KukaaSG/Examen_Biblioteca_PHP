@@ -22,7 +22,7 @@ final class LibroController
         // TODO (apartado 4): crear new LibroRequest($_POST, $_FILES).
         //      Si no es válido -> render('libro/formulario') con 'errores' y 'datos', y return.
         //
-        if(!(new LibroRequest($_POST,$_FILES)->esValido()))
+        if(!(new LibroRequest($_POST,$_FILES)->esValido()));
         // TODO (apartado 5):
         //      1. Generar el nombre único de la imagen (todavía no se mueve).
         //      2. Crear el objeto Libro con ese nombre de portada.
